@@ -4,4 +4,7 @@ Public class a1
   {
      System.out.println("Ravi");
   }
+  public vaid adding()
+  {
+  }
  }
