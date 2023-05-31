@@ -1,0 +1,37 @@
+import java.util.Scanner;
+class Currency1  
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc =new Scanner(System.in);
+
+		System.out.println("Enter the number");
+		double ip=sc.nextDouble();
+		rupeesToDoller(ip);
+	}
+	public static void rupeesToDoller(double rupees)
+	{
+		double doller = rupees * 0.012;
+		System.out.println(doller);
+		dollerToPound(doller);
+	}
+	public static void dollerToPound(double doller)
+	{
+		double pound =doller*0.81;
+		System.out.println(pound);
+		poundToYen(pound);
+	
+	}
+	public static void poundToYen(double pound)
+	{
+		double yen = pound*159.15;
+		System.out.println(yen);
+		yenToEuro(yen);
+		
+	}
+	public static void yenToEuro(double yen);
+	{
+		double euro=yen*0.0071;
+		System.out.println(euro);
+	}
+}
